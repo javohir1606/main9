@@ -1,5 +1,6 @@
+// import { Button } from "../ui/button/button";
 import style from "./hero.module.scss";
-
+import { Input } from "../../pages/button/button";
 export const Hero = () => {
   return (
     <>
@@ -17,11 +18,17 @@ export const Hero = () => {
             <span>Try it free 7 days </span>then $20/mo. thereafter
           </p>
           <div className={style.row}>
-            <input className={style.input} type="text" placeholder="First Name"/>
+            {/* <input className={style.input} type="text" placeholder="First Name"/>
             <input className={style.input} type="text" placeholder="Last Name"/>
             <input className={style.input} type="text" placeholder="Email Address"/>
-            <input className={style.input} type="text" placeholder="Password"/>
-            <button className={style.button}>CLAIM YOUR FREE TRIAL</button>
+            <input className={style.input} type="text" placeholder="Password"/> */}
+             
+             <Input />
+
+
+            {/* <Button>lorem</Button> */}
+
+           
             <p className={style.pic}>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
           </div>
         </div>
