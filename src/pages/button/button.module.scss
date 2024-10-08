@@ -1,5 +1,5 @@
-.input{
-  border: 2px solid #5E54A4;
+.input {
+  border: 2px solid #5e54a4;
   width: 400px;
   display: flex;
   margin-left: auto;
@@ -32,4 +32,13 @@
   margin-top: 20px;
   display: flex;
   cursor: pointer;
+}
+.pic {
+  margin-left: 50px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: red;
 }

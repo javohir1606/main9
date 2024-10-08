@@ -1,0 +1,7 @@
+Holatni boshqarish: useState komponent ichida o'zgarishi kerak bo'lgan holat (state) ma'lumotlarini boshqarish uchun ishlatiladi. Bu holat o'zgarganida komponent qaytadan render qilinadi.
+
+
+DOM yoki qiymatlar ustidan nazorat: useRef ma'lumotlarni saqlash uchun ishlatiladi, lekin bu ma'lumotlar o'zgarganda komponent qayta render qilinmaydi. Ko'pincha DOM elementlariga murojaat qilish yoki komponentlar o'rtasida qiymatni saqlash uchun ishlatilad
+
+
+Reusable (qayta foydalaniladigan) degan termin dasturlashda biron kod yoki komponentni bir necha joyda qayta ishlatish imkonini beradigan struktura yoki funksiya haqida gapiradi.

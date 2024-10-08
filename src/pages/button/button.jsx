@@ -35,7 +35,7 @@ export const Input = () => {
               type="text"
               placeholder="Last Name"
             />
-            <p>{errors.name && errors.name.message}</p>
+            <p className={style.pic}>{errors.name && errors.name.message}</p>
 
 
             <input className={style.input}
@@ -53,7 +53,7 @@ export const Input = () => {
               type="text"
               placeholder="First Name"
             />
-            <p>{errors.name && errors.name.message}</p>
+            <p className={style.pic}>{errors.name && errors.name.message}</p>
 
 
 
@@ -72,7 +72,7 @@ export const Input = () => {
               type="text"
               placeholder="Email Address"
             />
-            <p>{errors.name && errors.name.message}</p>
+            <p className={style.pic}>{errors.name && errors.name.message}</p>
 
           </div>
           <div>
@@ -81,9 +81,8 @@ export const Input = () => {
               type="password"
               placeholder="Password"
             />
-            <p>{errors.name && "password kiriting"}</p>
+            <p className={style.pic}>{errors.name && "Password kiriting"}</p>
           </div>
-          {/* <button type="submit">Submit</button> */}
           <button className={style.button} type="submit">CLAIM YOUR FREE TRIAL</button>
         </form>
       </div>
